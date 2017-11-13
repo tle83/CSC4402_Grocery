@@ -11,7 +11,7 @@ Create table Vendor(
 	V_name varchar(20),
 	Price float,--probably not needed
 	V_PNum varchar(15),
-	foreign key(I_ID) references Item,
+	foreign key(I_ID) references Item(I_ID),
 	primary key(V_ID)
 );
 
@@ -21,7 +21,7 @@ Create table Rep(
 	R_Name varchar(20),
 	R_PNum varchar(15),
 	Hours_of_Op varchar(40),
-	foreign key(V_ID) references Vendor,
+	foreign key(V_ID) references Vendor(V_ID),
 	primary key(R_ID)
 );
 
@@ -31,8 +31,14 @@ Create table Driver(
 	D_Name varchar(20),
 	D_PNum varchar(15),
 	Hours_of_Deliv varchar(40),
-	foreign key(V_ID) references Vendor,
+	foreign key(V_ID) references Vendor(V_ID),
 	primary key(D_ID)
+);
+Create table Employee(
+	E_ID varchar(20),
+	E_Name varchar(20),
+	Hr_Wage float,
+	primary key(E_ID)
 );
 
 Create table Checkout(
@@ -40,13 +46,7 @@ Create table Checkout(
 	E_ID varchar(20),
 	Num_Items integer,
 	Ttl_Price float,
-	foreign key(E_ID) references Employee,
+	foreign key(E_ID) references Employee(E_ID),
 	primary key(Receipt_ID)
 );
 
-Create table Employee(
-	E_ID varchar(20),
-	E_Name varchar(20),
-	Hr_Wage float,
-	primary key(E_ID)
-);
