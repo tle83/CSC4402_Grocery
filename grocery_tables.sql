@@ -1,7 +1,7 @@
 Create table Item(
 	I_ID varchar(20),
 	I_name  varchar(20),
-	price   integer,
+	Price   float,
 	primary key (I_ID)
 );
 
@@ -9,7 +9,7 @@ Create table Vendor(
 	I_ID varchar(20),
 	V_ID varchar(20),
 	V_name varchar(20),
-	Price integer,--probably not needed
+	Price float,--probably not needed
 	V_PNum varchar(15),
 	foreign key(I_ID) references Item,
 	primary key(V_ID)
@@ -39,7 +39,7 @@ Create table Checkout(
 	Receipt_ID varchar(20),
 	E_ID varchar(20),
 	Num_Items integer,
-	Ttl_Price integer,
+	Ttl_Price float,
 	foreign key(E_ID) references Employee,
 	primary key(Receipt_ID)
 );
