@@ -4,7 +4,6 @@ delete from Item;
 delete from Vendor;
 delete from Rep;
 delete from Driver;
-delete from Checkout;
 delete from Employee;
 
 /* we only have one store*/
@@ -79,6 +78,7 @@ insert into Rep values ('V009', 'R009', 'Emilia', '2256318632');
 insert into Rep values ('V010', 'R010', 'Aaron', '2259753147');
 insert into Rep values ('V011', 'R011', 'Issac', '2251380724');
 insert into Rep values ('V012', 'R012', 'Nicole', '225831235');
+
 /* Insert into driver tables */
 insert into Driver values ('V001', 'D001', 'David', '2259721475');
 insert into Driver values ('V002', 'D002', 'Harry', '2258125583');
@@ -96,7 +96,6 @@ insert into Driver values ('V013', 'D013', 'Gerald', '2256653455');
 insert into Driver values ('V014', 'D014', 'Ginny', '2257699766');
 insert into Driver values ('V015', 'D015', 'Fred', '2254335643');
 
-/* Insert into checkout tables */
 /* Insert into employee tables */
 insert into Employee values ('E001', 'Jacob', 7.25);
 insert into Employee values ('E002', 'Anna', 7.25);

@@ -47,12 +47,4 @@ Create table Employee(
 	primary key(E_ID)
 );
 
-Create table Checkout(
-	Receipt_ID varchar(20),
-	E_ID varchar(20),
-	Num_Items integer,
-	Ttl_Price float,
-	foreign key(E_ID) references Employee(E_ID),
-	primary key(Receipt_ID)
-);
 
