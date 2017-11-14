@@ -37,7 +37,6 @@ Create table Driver(
 	D_ID varchar(20),
 	D_Name varchar(20),
 	D_PNum varchar(15),
-	Hours_of_Deliv varchar(40),
 	foreign key(V_ID) references Vendor(V_ID),
 	primary key(D_ID)
 );
