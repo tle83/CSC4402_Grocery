@@ -28,7 +28,6 @@ Create table Rep(
 	R_ID varchar(20),
 	R_Name varchar(20),
 	R_PNum varchar(15),
-	Hours_of_Op varchar(40),
 	foreign key(V_ID) references Vendor(V_ID),
 	primary key(R_ID)
 );

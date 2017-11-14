@@ -67,6 +67,18 @@ insert into Vendor values ('I025', 'V011', 'Salt Life', '2253217383');
 insert into Vendor values ('I026', 'V012', 'LA Spices', '2250349812');
 
 /* Insert into representation tables */
+insert into Rep values ('V001', 'R001', 'Jeff', '2255678222');
+insert into Rep values ('V002', 'R002', 'Catherine', '2259807689');
+insert into Rep values ('V003', 'R003', 'Mathew', '2257657890');
+insert into Rep values ('V004', 'R004', 'Mike', '2250987890');
+insert into Rep values ('V005', 'R005', 'Arthur', '225123765');
+insert into Rep values ('V006', 'R006', 'Noah', '2257319283');
+insert into Rep values ('V007', 'R007', 'Lily', '2254324560');
+insert into Rep values ('V008', 'R008', 'Vivian', '2251523482');
+insert into Rep values ('V009', 'R009', 'Emilia', '2256318632');
+insert into Rep values ('V010', 'R010', 'Aaron', '2259753147');
+insert into Rep values ('V011', 'R011', 'Issac', '2251380724');
+insert into Rep values ('V012', 'R012', 'Nicole', '225831235');
 /* Insert into driver tables */
 /* Insert into checkout tables */
 /* Insert into employee tables */
