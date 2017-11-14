@@ -1,10 +1,14 @@
 /* Clear all tables before inserting */
+delete from Store;
 delete from Item;
 delete from Vendor;
 delete from Rep;
 delete from Driver;
 delete from Checkout;
 delete from Employee;
+
+/* we only have one store*/
+insert into Store values('S1', '4402_Grocery', '385 Nicholson Dr', 'Baton Rouge', 'Louisiana');
 
 /* Insert into item tables */
 insert into Item values ('001', 'Apples',1.50);

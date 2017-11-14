@@ -18,7 +18,6 @@ Create table Vendor(
 	I_ID varchar(20),
 	V_ID varchar(20),
 	V_name varchar(20),
-	Price float,--probably not needed
 	V_PNum varchar(15),
 	foreign key(I_ID) references Item(I_ID),
 	primary key(V_ID)
