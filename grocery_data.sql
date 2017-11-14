@@ -1,15 +1,12 @@
+/* Grocery data insertions */
+
 /* Clear all tables before inserting */
-delete from Store;
 delete from Item;
 delete from Vendor;
 delete from Rep;
 delete from Driver;
-delete from Employee;
 
-/* we only have one store*/
-insert into Store values('S1', '4402_Grocery', '385 Nicholson Dr', 'Baton Rouge', 'Louisiana');
-
-/* Insert into item tables */
+/* Insert into item table */
 insert into Item values ('S1', 'I001', 'Apples',1.50);
 insert into Item values ('S1', 'I002', 'Grapes', 3.00);
 insert into Item values ('S1', 'I003', 'Milk', 5.75);
@@ -37,7 +34,7 @@ insert into Item values ('S1', 'I024', 'Cooking oil', 3.00);
 insert into Item values ('S1', 'I025', 'Salt', 1.25);
 insert into Item values ('S1', 'I026', 'Pepper', 1.25);
 
-/* Insert into vendor tables */
+/* Insert into vendor table */
 insert into Vendor values ('I001', 'V001', 'Farmers Market', '2252894732');
 insert into Vendor values ('I002', 'V002', 'Farmers Market', '2252894732');
 insert into Vendor values ('I003', 'V003', 'Tigers Produce', '2254896825');
@@ -65,7 +62,7 @@ insert into Vendor values ('I024', 'V008', 'Souths Baking Goods', '2253125343');
 insert into Vendor values ('I025', 'V011', 'Salt Life', '2253217383');
 insert into Vendor values ('I026', 'V012', 'LA Spices', '2250349812');
 
-/* Insert into representation tables */
+/* Insert into representative table */
 insert into Rep values ('V001', 'R001', 'Jeff', '2255678222');
 insert into Rep values ('V002', 'R002', 'Catherine', '2259807689');
 insert into Rep values ('V003', 'R003', 'Mathew', '2257657890');
@@ -79,7 +76,7 @@ insert into Rep values ('V010', 'R010', 'Aaron', '2259753147');
 insert into Rep values ('V011', 'R011', 'Issac', '2251380724');
 insert into Rep values ('V012', 'R012', 'Nicole', '225831235');
 
-/* Insert into driver tables */
+/* Insert into driver table */
 insert into Driver values ('V001', 'D001', 'David', '2259721475');
 insert into Driver values ('V002', 'D002', 'Harry', '2258125583');
 insert into Driver values ('V003', 'D003', 'Ron', '2253241568');
@@ -96,19 +93,3 @@ insert into Driver values ('V013', 'D013', 'Gerald', '2256653455');
 insert into Driver values ('V014', 'D014', 'Ginny', '2257699766');
 insert into Driver values ('V015', 'D015', 'Fred', '2254335643');
 
-/* Insert into employee tables */
-insert into Employee values ('E001', 'Jacob', 7.25);
-insert into Employee values ('E002', 'Anna', 7.25);
-insert into Employee values ('E003', 'Michael', 8.00);
-insert into Employee values ('E004', 'John', 7.50);
-insert into Employee values ('E005', 'Jessica', 8.00);
-insert into Employee values ('E006', 'Dylan', 7.50);
-insert into Employee values ('E007', 'Cody', 7.50);
-insert into Employee values ('E008', 'Diana', 8.00);
-insert into Employee values ('E009', 'Julie', 9.00);
-insert into Employee values ('E010', 'Tyler', 9.00);
-insert into Employee values ('E011', 'Andrew', 8.50);
-insert into Employee values ('E012', 'Kim', 7.50);
-insert into Employee values ('E013', 'Cindy', 7.25);
-insert into Employee values ('E014', 'Justin', 7.50);
-insert into Employee values ('E015', 'Jenny', 7.50);

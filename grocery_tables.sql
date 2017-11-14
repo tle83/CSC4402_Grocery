@@ -1,11 +1,4 @@
-Create table Store(
-	S_ID varchar(20),
-	S_Name varchar(20),
-	S_Addr varchar(20),
-	S_City varchar(20),
-	S_State varchar(20),
-	primary key(S_ID)
-);
+/* Grocery table creations */
 
 Create table Item(
 	S_ID varchar(20),
@@ -42,11 +35,6 @@ Create table Driver(
 	foreign key(V_ID) references Vendor(V_ID),
 	primary key(D_ID)
 );
-Create table Employee(
-	E_ID varchar(20),
-	E_Name varchar(20),
-	Hr_Wage float,
-	primary key(E_ID)
-);
+
 
 
