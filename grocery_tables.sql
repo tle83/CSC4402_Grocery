@@ -1,3 +1,12 @@
+Create table Store(
+	S_ID varchar(20),
+	S_Name varchar(20),
+	S_Addr varchar(20),
+	S_City varchar(20),
+	S_State varchar(20),
+	primary key(S_ID)
+);
+
 Create table Item(
 	I_ID varchar(20),
 	I_name  varchar(20),
