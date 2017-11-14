@@ -70,3 +70,11 @@ insert into Vendor values ('I026', 'V012', 'LA Spices', '2250349812');
 /* Insert into driver tables */
 /* Insert into checkout tables */
 /* Insert into employee tables */
+
+insert into Employee values ('E001', 'Jacob', 7.25);
+insert into Employee values ('E002', 'Anna', 7.25);
+insert into Employee values ('E003', 'Michael', 8.00);
+insert into Employee values ('E004', 'John', 7.50);
+insert into Employee values ('E005', 'Jessica', 8.00);
+insert into Employee values ('E006', 'Dylan', 7.50);
+insert into Employee values ('E007', 'Cody', 7.50);
