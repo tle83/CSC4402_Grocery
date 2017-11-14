@@ -8,9 +8,11 @@ Create table Store(
 );
 
 Create table Item(
+	S_ID varchar(20),
 	I_ID varchar(20),
 	I_name  varchar(20),
 	Price   float,
+	foreign key(S_ID) references Store(S_ID),
 	primary key (I_ID)
 );
 
