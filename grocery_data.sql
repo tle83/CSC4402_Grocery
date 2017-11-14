@@ -81,21 +81,20 @@ insert into Rep values ('V011', 'R011', 'Issac', '2251380724');
 insert into Rep values ('V012', 'R012', 'Nicole', '225831235');
 /* Insert into driver tables */
 insert into Driver values ('V001', 'D001', 'David', '2259721475');
-insert into Driver values ('', 'D002', '', '');
-insert into Driver values ('', 'D003', '', '');
-insert into Driver values ('', 'D004', '', '');
-insert into Driver values ('', 'D005', '', '');
-insert into Driver values ('', 'D006', '', '');
-insert into Driver values ('', 'D007', '', '');
-insert into Driver values ('', 'D008', '', '');
-insert into Driver values ('', 'D009', '', '');
-insert into Driver values ('', 'D010', '', '');
-insert into Driver values ('', 'D011', '', '');
-insert into Driver values ('', 'D012', '', '');
-insert into Driver values ('', 'D013', '', '');
-insert into Driver values ('', 'D014', '', '');
-insert into Driver values ('', 'D015', '', '');
-
+insert into Driver values ('V002', 'D002', 'Harry', '2258125583');
+insert into Driver values ('V003', 'D003', 'Ron', '2253241568');
+insert into Driver values ('V004', 'D004', 'Drake', '2259725434');
+insert into Driver values ('V005', 'D005', 'Darius', '2252356543');
+insert into Driver values ('V006', 'D006', 'Debbie', '2257653425');
+insert into Driver values ('V007', 'D007', 'Sally', '2255662341');
+insert into Driver values ('V008', 'D008', 'Evan', '2257673422');
+insert into Driver values ('V009', 'D009', 'Victor', '2258765698');
+insert into Driver values ('V010', 'D010', 'Polly', '2251134544');
+insert into Driver values ('V011', 'D011', 'Zach', '2253344523');
+insert into Driver values ('V012', 'D012', 'Sarah', '2257683422');
+insert into Driver values ('V013', 'D013', 'Gerald', '2256653455');
+insert into Driver values ('V014', 'D014', 'Ginny', '2257699766');
+insert into Driver values ('V015', 'D015', 'Fred', '2254335643');
 
 /* Insert into checkout tables */
 /* Insert into employee tables */
