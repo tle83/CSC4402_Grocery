@@ -37,15 +37,18 @@ insert into Item values ('I026', 'Pepper', 1.25);
 /* Insert into vendor table */
 insert into Vendor values ('I001', 'V001', 'Farmers Market', '2252894732');
 insert into Vendor values ('I002', 'V002', 'Farmers Market', '2252894732');
+insert into Vendor values ('I002', 'V003', 'Tigers Produce', '2254896825');
 insert into Vendor values ('I003', 'V003', 'Tigers Produce', '2254896825');
 insert into Vendor values ('I004', 'V003', 'Tigers Produce', '2254896825');
 insert into Vendor values ('I005', 'V003', 'Tigers Produce', '2254896825');
 insert into Vendor values ('I006', 'V003', 'Tigers Produce', '2254896825');
+insert into Vendor values ('I003', 'V004', 'Mikes Beverages', '2252537943');
+insert into Vendor values ('I006', 'V004', 'Mikes Beverages', '2252537943');
 insert into Vendor values ('I007', 'V004', 'Mikes Beverages', '2252537943');
 insert into Vendor values ('I008', 'V004', 'Mikes Beverages', '2252537943');
 insert into Vendor values ('I009', 'V005', 'Tiger Snacks', '2253109438');
-insert into Vendor values ('I010', 'V005','Tiger Snacks', '2253109438');
-insert into Vendor values ('I011', 'V005','Tiger Snacks', '2253109438');
+insert into Vendor values ('I010', 'V005', 'Tiger Snacks', '2253109438');
+insert into Vendor values ('I011', 'V005', 'Tiger Snacks', '2253109438');
 insert into Vendor values ('I012', 'V006', 'Southern Fresh Veggies', '2250784321');
 insert into Vendor values ('I013', 'V006', 'Southern Fresh Veggies', '2250784321');
 insert into Vendor values ('I014', 'V006', 'Southern Fresh Veggies', '2250784321');
@@ -58,6 +61,8 @@ insert into Vendor values ('I020', 'V009', 'LA Bakery', '2252347654');
 insert into Vendor values ('I021', 'V003', 'Tigers Produce', '2254896825');
 insert into Vendor values ('I022', 'V010', 'Tiger Pizza', '2251234567');
 insert into Vendor values ('I023', 'V009', 'LA Bakery', '2252347654');
+insert into Vendor values ('I023', 'V005', 'Tiger Snacks', '2253109438');
+insert into Vendor values ('I023', 'V008', 'Souths Baking Goods', '2253125343');
 insert into Vendor values ('I024', 'V008', 'Souths Baking Goods', '2253125343');
 insert into Vendor values ('I025', 'V011', 'Salt Life', '2253217383');
 insert into Vendor values ('I026', 'V012', 'LA Spices', '2250349812');
@@ -89,7 +94,5 @@ insert into Driver values ('V009', 'D009', 'Victor', '2258765698');
 insert into Driver values ('V010', 'D010', 'Polly', '2251134544');
 insert into Driver values ('V011', 'D011', 'Zach', '2253344523');
 insert into Driver values ('V012', 'D012', 'Sarah', '2257683422');
-insert into Driver values ('V013', 'D013', 'Gerald', '2256653455');
-insert into Driver values ('V014', 'D014', 'Ginny', '2257699766');
-insert into Driver values ('V015', 'D015', 'Fred', '2254335643');
+
 
