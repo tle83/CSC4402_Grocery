@@ -107,8 +107,5 @@ insert into Driver values ('V006', 'D006', 'Debbie', '2257653425');
 insert into Driver values ('V007', 'D007', 'Sally', '2255662341');
 insert into Driver values ('V008', 'D008', 'Evan', '2257673422');
 insert into Driver values ('V009', 'D009', 'Victor', '2258765698');
-insert into Driver values ('V010', 'D010', 'Polly', '2251134544');
-insert into Driver values ('V011', 'D011', 'Zach', '2253344523');
-insert into Driver values ('V012', 'D012', 'Sarah', '2257683422');
 
 
