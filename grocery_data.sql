@@ -90,10 +90,16 @@ insert into Rep values ('V008', 'R008', 'Vivian', '2251523482');
 insert into Rep values ('V009', 'R009', 'Emilia', '2256318632');
 insert into Rep values ('V010', 'R010', 'Aaron', '2259753147');
 insert into Rep values ('V011', 'R011', 'Issac', '2251380724');
-insert into Rep values ('V012', 'R012', 'Nicole', '225831235');
+insert into Rep values ('V012', 'R012', 'Nicole', '2258312356');
 insert into Rep values ('V012', 'R013', 'Ashley', '2251294732');
+insert into Rep values ('V001', 'R010', 'Aaron', '2259753147');
 insert into Rep values ('V003', 'R014', 'Barry', '2259983437');
 insert into Rep values ('V005', 'R015', 'Sherry', '2257758237');
+insert into Rep values ('V007', 'R012', 'Nicole', '2258312356');
+insert into Rep values ('V008', 'R013', 'Sam', '2252969593');
+insert into Rep values ('V009', 'R014', 'John', '2257593768');
+insert into Rep values ('V009', 'R015', 'Cori', '2257685935');
+
 
 /* Insert into driver table */
 insert into Driver values ('V001', 'D001', 'David', '2259721475');
