@@ -7,12 +7,18 @@ Create table Item(
 	primary key (I_ID)
 );
 
-Create table Vendor(
+Create table Inventory(
 	I_ID varchar(20),
 	V_ID varchar(20),
-	V_name varchar(20),
-	V_PNum varchar(15),
 	foreign key(I_ID) references Item(I_ID),
+	foreign key(V_ID) references Vendor(V_ID)
+);
+
+Create table Vendor(
+	V_ID varchar(20),
+	V_Name varchar(20),
+	V_PNum varchar(15),
+	V_City varchar(20),
 	primary key(V_ID)
 );
 
