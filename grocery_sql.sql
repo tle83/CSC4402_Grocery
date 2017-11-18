@@ -11,10 +11,10 @@
       where num > 2;
 
 
-/* 3) */
-/* 4) */
-/* 5) */
-/* 6) */
+/* 3) Get Item name with Price greater than 1 and receive by Vendor Located in Baton Rouge. */
+/* 4) List  Id, Name and phone number of all the drive who works in the vendor located in New Orleans.*/
+/* 5) List  Id , Name and Phone number of all the representive who does not work in Metairie.*/
+/* 6) Get vendor ID and name with located in Baton Rouge with more than 4 different items*/
 /* 7) */
 /* 8) */
 /* 9) */
