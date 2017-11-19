@@ -18,7 +18,7 @@
       
 /* 4) List  Id, Name and phone number of all the drive who works in the vendor located in New Orleans.*/
       select D_ID, D_Name, D_PNum 
-      from driver join vonder using(V_ID)
+      from driver join vender using(V_ID)
       where V_city = 'New Orleans';
 /* 5) List  Id , Name and Phone number of all the representive who does not work in Metairie.*/
       Select R_ID, R_Name, R_PNum
