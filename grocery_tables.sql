@@ -16,10 +16,12 @@ Create table Vendor(
 );
 
 Create table Inventory(
+	Inventory_Num varchar(20),
 	I_ID varchar(20),
 	V_ID varchar(20),
 	foreign key(I_ID) references Item(I_ID),
-	foreign key(V_ID) references Vendor(V_ID)
+	foreign key(V_ID) references Vendor(V_ID),
+	primary key(Inventory_Num)
 );
 
 Create table Rep(
