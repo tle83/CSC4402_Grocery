@@ -31,9 +31,25 @@
       and vendor.V_ID in (select V_ID 
                           from (select count(I_ID) as num, V_ID from inventory group by V_ID) as a 
                           where num > 4);
-/* 7) */
-/* 8) */
-/* 9) */
-/* 10) */
-/* 11) */
+/* 7) List all the vendors Id, name and phone number located in Baton Rouge*/
+      Select V_ID, V_Name, V_PNum
+      from vendor
+      where V_city = 'Baton Rouge';
+/* 8) List all vendors ID where more than one Representive */
+      Select V_ID 
+      from (Select V_ID, count(R_ID) as num from rep group by (V_ID)) as a
+      where num > 1;
+/* 9)  List all the R_ID, R_Name, R_PNum who works in Vendor ID V009*/
+      Select R_ID, R-Name, R_PNum
+      from rep 
+      where V_ID = 'V009';
+      
+/* 10) Get all the items names having price more than 2*/
+      Select I_name
+      from item
+      where Price > 2;
+/* 11) List all the drives ID, Name and PNumber who works in vendor located in Baton Rouge*/
+      Select D_ID, D_Name, D_PNum
+      from driver join vendor using(V_ID) 
+      where V_City = 'Baton Rouge';
 
