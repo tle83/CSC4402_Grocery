@@ -83,11 +83,27 @@ insert into Vendor values ('V001', 'Farmers Market', '2252894732', 'Baton Rouge'
 insert into Vendor values ('V002', 'Tigers Produce', '2254896825', 'Lafayette');
 insert into Vendor values ('V003', 'LA Spices', '2250349812', 'Metairie');
 insert into Vendor values ('V004', 'Mikes Beverages', '2252537943', 'Baton Rouge');
-insert into Vendor values ('V005', 'Tiger Snacks', '2253109438', 'New Orleans');
-insert into Vendor values ('V006', 'Southern Fresh Veggies', '2250784321', 'New Orleans');
+insert into Vendor values ('V005', 'Tiger Snacks', '5043109438', 'New Orleans');
+insert into Vendor values ('V006', 'Southern Fresh Veggies', '5040784321', 'New Orleans');
 insert into Vendor values ('V007', 'Souths Baking Goods', '2253125343', 'Metairie');
 insert into Vendor values ('V008', 'LA Bakery', '2252347654', 'Metairie');
 insert into Vendor values ('V009', 'Tiger Pizza', '2251234567', 'Baton Rouge');
+insert into Vendor values ('V010', 'American Market', '2259282232', 'Baton Rouge');
+insert into Vendor values ('V011', 'Lions Produce', '2254090805', 'Lafayette');
+insert into Vendor values ('V012', 'Cajun Spices', '5041111111', 'New Orleans');
+insert into Vendor values ('V013', 'Mikes drinks', '2252532223', 'Baton Rouge');
+insert into Vendor values ('V014', 'Met air veggies', '2253125343', 'Metairie');
+insert into Vendor values ('V015', 'Tiger Tacos', '2251234568', 'Baton Rouge');
+insert into Vendor values ('V016', 'Market for DBMAs', '2250009341', 'Baton Rouge');
+insert into Vendor values ('V017', 'Produce for Tigres', '2254292929', 'Lafayette');
+insert into Vendor values ('V018', 'Cajun & Chinese food', '2250341112', 'Metairie');
+insert into Vendor values ('V019', 'Basta Pasta', '2250000000', 'Baton Rouge');
+insert into Vendor values ('V020', 'Store by Gore', '2250000001', 'New Orleans');
+insert into Vendor values ('V021', 'Griffiths food emporium', '2250000002', 'New Orleans');
+insert into Vendor values ('V022', 'Le Home Resturant', '2250000003', 'Metairie');
+insert into Vendor values ('V023', 'Nguyen New Gen Food', '2250000004', 'Metairie');
+insert into Vendor values ('V024', 'Plaisance goods', '2250000005', 'Baton Rouge');
+insert into Vendor values ('V025', 'Trinhs', '2250000006', 'Baton Rouge');
 
 
 /* Insert into representative table */
