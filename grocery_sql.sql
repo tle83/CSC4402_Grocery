@@ -74,11 +74,11 @@
       where V_ID = 'V009';
       
 /* 10) Get all the item names that has a price of more than 2. */
-      select I_name
+      select I_Name
       from Item
       where Price > 2;
 
 /* 11) List all the driver ID, name and phone number such that the driver works for a vendor located in Baton Rouge. */
       select D_ID, D_Name, D_PNum
       from Driver join Vendor using(V_ID) 
-where V_City = 'Baton Rouge';
+      where V_City = 'Baton Rouge';

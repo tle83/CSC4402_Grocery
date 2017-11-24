@@ -2,7 +2,7 @@
 
 Create table Item(
 	I_ID varchar(20),
-	I_name  varchar(20),
+	I_Name  varchar(20),
 	Price   float,
 	primary key (I_ID)
 );
