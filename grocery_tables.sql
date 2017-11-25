@@ -9,7 +9,7 @@ Create table Item(
 
 Create table Vendor(
 	V_ID varchar(20),
-	V_Name varchar(20),
+	V_Name varchar(30),
 	V_PNum varchar(15),
 	V_City varchar(20),
 	primary key(V_ID)
