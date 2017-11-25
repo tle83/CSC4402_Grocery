@@ -9,9 +9,9 @@ Create table Item(
 
 Create table Vendor(
 	V_ID varchar(20),
-	V_Name varchar(50),
-	V_PNum varchar(50),
-	V_City varchar(50),
+	V_Name varchar(20),
+	V_PNum varchar(15),
+	V_City varchar(20),
 	primary key(V_ID)
 );
 
@@ -25,7 +25,7 @@ Create table Inventory(
 Create table Rep(
 	V_ID varchar(20),
 	R_ID varchar(20),
-	R_Name varchar(50),
+	R_Name varchar(20),
 	R_PNum varchar(15),
 	foreign key(V_ID) references Vendor(V_ID),
 	primary key(R_ID)
@@ -34,7 +34,7 @@ Create table Rep(
 Create table Driver(
 	V_ID varchar(20),
 	D_ID varchar(20),
-	D_Name varchar(50),
+	D_Name varchar(20),
 	D_PNum varchar(15),
 	foreign key(V_ID) references Vendor(V_ID),
 	primary key(D_ID)
