@@ -19,11 +19,11 @@
       Select I_ID, I_Name 
       from Inventory join Item using(I_ID) join Vendor using(V_ID)
       where V_City = 'Baton Rouge' and Price > 1;
-      
+
 /* 4) Get ID, name and phone number of all the drivers who work for vendors located in New Orleans. */
       select D_ID, D_Name, D_PNum 
       from Driver join Vendor using(V_ID)
-      where V_city = 'New Orleans';
+      where V_City = 'New Orleans';
 
 /* 5) Get ID, name and phone number of all the representives who does not work in Metairie. */
       select R_ID, R_Name, R_PNum
@@ -51,7 +51,7 @@
 /* 7) List all the vendor IDs, names and phone numbers such that the vendor is located in Baton Rouge. */
       select V_ID, V_Name, V_PNum
       from Vendor
-      where V_city = 'Baton Rouge';
+      where V_City = 'Baton Rouge';
 
 /* UPDATE #4: update vendor ID where representative ID is R013 */
       update Rep
@@ -64,15 +64,15 @@
       where Price >= 5;
 
 /* 8) List all vendor IDs such that the vendor has more than one representive. */
-      select V_ID 
+      select V_ID
       from (Select V_ID, count(R_ID) as num from Rep group by (V_ID)) as x
       where num > 1;
-      
+
 /* 9) List all the representative IDs, names, phone numbers who works for vendor with vendor ID V009. */
       select R_ID, R_Name, R_PNum
       from Rep 
       where V_ID = 'V009';
-      
+
 /* 10) Get all the item names that has a price of more than 2. */
       select I_Name
       from Item
