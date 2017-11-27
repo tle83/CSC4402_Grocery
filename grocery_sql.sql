@@ -3,7 +3,7 @@
 /* 1) Get vendor ID such that it provides the grocery store with more than 4 different items. */
       select V_ID 
       from (select count(I_ID) as num, V_ID from Inventory group by V_ID) as x 
-      where num > 4;
+      where num > 3;
 
 /* 2) Get item ID such that the store receives the item by more than 2 vendors. */ 
       select I_ID 
